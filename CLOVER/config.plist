@@ -56,7 +56,7 @@
 				<dict>
 					<key>Comment</key>
 					<string>change HDAS to HDEF</string>
-                    <key>Disabled</key>
+					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>SERBUw==</data>
@@ -66,7 +66,7 @@
 				<dict>
 					<key>Comment</key>
 					<string>change HECI to IMEI</string>
-                    <key>Disabled</key>
+					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>SEVDSQ==</data>
@@ -76,6 +76,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>change GFX0 to IGPU</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>R0ZYMA==</data>
 					<key>Replace</key>
@@ -177,7 +179,7 @@
 			<dict>
 				<key>AAPL,ig-platform-id</key>
 				<data>AAAbGQ==</data>
-                <key>device-id</key>
+				<key>device-id</key>
 				<data>FhkAAA==</data>
 				<key>framebuffer-patch-enable</key>
 				<data>AQAAAA==</data>
@@ -226,8 +228,6 @@
 		<dict>
 			<key>Entries</key>
 			<true/>
-			<key>Legacy</key>
-			<false/>
 			<key>Linux</key>
 			<true/>
 			<key>Tool</key>
@@ -245,8 +245,8 @@
 		<key>KernelPm</key>
 		<true/>
 		<key>KextsToPatch</key>
-        <array>
-        	<dict>
+		<array>
+        		<dict>
 				<key>Comment</key>
 				<string>Enable TRIM for SSD</string>
 				<key>Disabled</key>
@@ -276,7 +276,7 @@
 			<dict>
 				<key>Comment</key>
 				<string>Disable panic kext logging on 10.14.x</string>
-                <key>Disabled</key>
+				<key>Disabled</key>
 				<false/>
 				<key>MatchOS</key>
 				<string>10.14.x</string>
