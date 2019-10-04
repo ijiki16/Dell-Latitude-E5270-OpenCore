@@ -18,9 +18,6 @@
 		</array>
 		<key>DSDT</key>
 		<dict>
-			<key>Fixes</key>
-			<dict>
-			</dict>
 			<key>Patches</key>
 			<array>
 				<dict>
@@ -170,7 +167,7 @@
 	<dict>
 		<key>Properties</key>
 		<dict>
-        	<key>PciRoot(0x0)/Pci(0x1f,0x03)</key>
+        		<key>PciRoot(0x0)/Pci(0x1f,0x03)</key>
 			<dict>
 				<key>layout-id</key>
 				<data>CwAAAA==</data>
