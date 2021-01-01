@@ -6,13 +6,13 @@ This repo is for Dell Latitude E5270 hackinthosh build.
 
 - `Model`: Latitude E5270
 
-- `CPU`: Intel Core i5-6300U
+- `CPU`: Intel Core i7-6600U
 
 - `GPU`: Intel HD Graphics 520
 
 - `RAM`: 8 GB 2133MHz DDR4
 
-- `Storage`: 240GB ATA Kingston SA400M8 SATA SSD
+- `Storage`: 500GB ATA Kingston SA42000M8 NVME SSD
 
 - `Camera`: HD 480p
 
@@ -24,7 +24,7 @@ This repo is for Dell Latitude E5270 hackinthosh build.
 
 - `WLAN + BT`: Qualcomm Atheros QCA6174 802.11ac (rev 32)
 
-- `Battery`: 47Wh (3-cell) Dell RDRH971 Li-ion
+- `Battery`: 62Wh (3-cell) Dell RDRH971 Li-ion
 
 ## macOS Version
 
@@ -42,7 +42,7 @@ This repo is for Dell Latitude E5270 hackinthosh build.
 
 - [ ] Intel HD Graphics (with QE/CI graphics acceleration)
 
-- [ ] All USB ports	(with dock port support)
+- [ ] All USB ports (with dock port support)
 
 - [ ] mDP and HDMI port (with HDMI audio)
 
@@ -69,3 +69,4 @@ This repo is for Dell Latitude E5270 hackinthosh build.
 - [ ] SD Card Reader `Driver somewhat works with low speed and unstable`
 
 - [ ] Sidecar Wireless `Doesn't work without apple native WIFI card`
+  
