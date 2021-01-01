@@ -2,39 +2,39 @@
 
 This repo is for Dell Latitude E5270 hackinthosh build.
 
-### Laptop's Configuration
+## Laptop's Configuration
 
-- <b>Model</b>: Latitude E5270
+- `Model`: Latitude E5270
 
-- <b>CPU</b>: Intel Core i5-6300U
+- `CPU`: Intel Core i5-6300U
 
-- <b>GPU</b>: Intel HD Graphics 520
+- `GPU`: Intel HD Graphics 520
 
-- <b>RAM</b>: 8 GB 2133MHz DDR4
+- `RAM`: 8 GB 2133MHz DDR4
 
-- <b>Storage</b>: 240GB ATA Kingston SA400M8 SATA SSD
+- `Storage`: 240GB ATA Kingston SA400M8 SATA SSD
 
-- <b>Camera</b>: HD 480p
+- `Camera`: HD 480p
 
-- <b>Sound</b>: Intel Corporation Sunrise Point-LP HD Audio (rev 21) / RealTek ALC3235
+- `Sound`: Intel Corporation Sunrise Point-LP HD Audio (rev 21) / RealTek ALC3235
 
-- <b>Screen</b>: 12.5" HD (1366x768) LED
+- `Screen`: 12.5" HD (1366x768) LED
 
-- <b>Ethernet</b>: Intel Corporation Ethernet Connection I219-LM (rev 21)
+- `Ethernet`: Intel Corporation Ethernet Connection I219-LM (rev 21)
 
-- <b>WLAN + BT</b>: Qualcomm Atheros QCA6174 802.11ac (rev 32)
+- `WLAN + BT`: Qualcomm Atheros QCA6174 802.11ac (rev 32)
 
-- <b>Battery</b>: 47Wh (3-cell) Dell RDRH971 Li-ion
+- `Battery`: 47Wh (3-cell) Dell RDRH971 Li-ion
 
-### macOS Version
+## macOS Version
 
 - [ ] 10.14: macOS Mojave 10.14.6
 
 - [ ] 10.15: macOS Catalina 10.15.3
 
-### What's Working
+## What's Working
 
-### What's not Working ⚠️
+## What's not Working ⚠️
 
 > If you have any questions or suggestions feel free to contact me
 
