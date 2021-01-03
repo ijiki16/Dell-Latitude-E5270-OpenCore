@@ -171,7 +171,7 @@ This repo is for Dell Latitude E5270 hackinthosh build.
 
 - `RAM`: 8 GB 2133MHz DDR4
 
-- `Storage`: 500GB ATA Kingston SA42000M8 NVME SSD
+- `Storage`: 500GB ATA Kingston SA2000M8 NVME SSD
   
     ```bash
     *-sata                    
