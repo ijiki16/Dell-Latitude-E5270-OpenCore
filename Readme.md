@@ -230,6 +230,14 @@ This repo is for Dell Latitude E5270 hackinthosh build.
 
 - [x] Some USB ports
 
+- [x] Bluetooth
+
+- [x] Battery, Charging
+
+- [x] Audio
+
+- [x] Shutdown / Reboot
+
 ## What's not Working ⚠️
 
 > If you have any questions or suggestions feel free to contact me
@@ -244,13 +252,11 @@ This repo is for Dell Latitude E5270 hackinthosh build.
 
 - [ ] Internal Camera (with FaceTime)
 
-- [ ] Sleep / Wake / Shutdown / Reboot (with lid sleep and lid wake)
+- [ ] Sleep / Wake (with lid sleep and lid wake)
 
-- [ ] Wifi, Bluetooth, Airdrop, Handoff, Continuity
+- [ ] Wifi, Airdrop, Handoff, Continuity
 
 - [ ] iMessage, FaceTime, App Store, iTunes Store (need valid SMBIOS)
-
-- [ ] Battery
 
 - [ ] Trackpad and Physical buttons (with native gestures)
 
