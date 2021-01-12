@@ -216,9 +216,19 @@ This repo is for Dell Latitude E5270 hackinthosh build.
 
 - [ ] 10.14: macOS Mojave 10.14.6
 
-- [ ] 10.15: macOS Catalina 10.15.3
+- [x] 10.15: macOS Catalina 10.15.3
 
 ## What's Working
+
+- [x] Intel I219V Ethernet port
+
+- [x] Trackpad
+
+- [x] Keyboard
+
+- [x] Mic in and Audio out
+
+- [x] Some USB ports
 
 ## What's not Working ⚠️
 
@@ -236,20 +246,12 @@ This repo is for Dell Latitude E5270 hackinthosh build.
 
 - [ ] Sleep / Wake / Shutdown / Reboot (with lid sleep and lid wake)
 
-- [ ] Intel I219V Ethernet port
-
 - [ ] Wifi, Bluetooth, Airdrop, Handoff, Continuity
 
 - [ ] iMessage, FaceTime, App Store, iTunes Store (need valid SMBIOS)
 
-- [ ] Mic in and Audio out
-
 - [ ] Battery
-
-- [ ] Keyboard
 
 - [ ] Trackpad and Physical buttons (with native gestures)
 
-- [ ] SD Card Reader 
-
-  
+- [ ] SD Card Reader
