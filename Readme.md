@@ -230,8 +230,6 @@ This repo is for Dell Latitude E5270 hackinthosh build.
 
 - [x] Some USB ports
 
-- [x] Bluetooth
-
 - [x] Battery, Charging
 
 - [x] Audio
@@ -261,3 +259,19 @@ This repo is for Dell Latitude E5270 hackinthosh build.
 - [ ] Trackpad and Physical buttons (with native gestures)
 
 - [ ] SD Card Reader
+
+- [ ] Bluetooth
+
+### MacBookPro13,1 SMBIOS Info
+
+- Type:         MacBookPro13,1
+- Serial:       C17V5JZQGVC1
+- Board Serial: C17731100GUHMHKA8
+- SmUUID:       C3E3F749-F66C-486D-BD74-22C2120FAEF0
+
+### MacBookPro13,2 SMBIOS Info
+
+- Type:         MacBookPro13,2
+- Serial:       C02T5EYZGYFH
+- Board Serial: C02704600J9H9W8JC
+- SmUUID:       F6784199-6BCB-44A3-B5F4-27468A6D2447
