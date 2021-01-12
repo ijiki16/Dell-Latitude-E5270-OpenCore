@@ -202,15 +202,15 @@ This repo is for Dell Latitude E5270 hackinthosh build.
 
 - `Camera`: HD 480p
 
-- `Sound`: Intel Corporation Sunrise Point-LP HD Audio (rev 21) / RealTek ALC3235
+- `Sound`: RealTek ALC3235 Analog [ALC3235 Analog]
 
-- `Screen`: 12.5" HD (1366x768) LED
+- `Screen`: 12.5" FHD (1920x1080) 60 Hz
 
 - `Ethernet`: Intel Corporation Ethernet Connection I219-LM (rev 21)
 
-- `WLAN + BT`: Qualcomm Atheros QCA6174 802.11ac (rev 32)
+- `WLAN + BT`: Intel Corporation Wireless 8260 (rev 3a)
 
-- `Battery`: 62Wh (3-cell) Dell RDRH971 Li-ion
+- `Battery`: 62Wh Dell RDRH971 Li-ion
 
 ## macOS Version
 
@@ -230,7 +230,7 @@ This repo is for Dell Latitude E5270 hackinthosh build.
 
 - [ ] All USB ports (with dock port support)
 
-- [ ] mDP and HDMI port (with HDMI audio)
+- [ ] HDMI port (with HDMI audio)
 
 - [ ] Internal Camera (with FaceTime)
 
@@ -238,7 +238,7 @@ This repo is for Dell Latitude E5270 hackinthosh build.
 
 - [ ] Intel I219V Ethernet port
 
-- [ ] Wifi, Bluetooth, Airdrop, Handoff, Continuity (with upgraded DW1820A)
+- [ ] Wifi, Bluetooth, Airdrop, Handoff, Continuity
 
 - [ ] iMessage, FaceTime, App Store, iTunes Store (need valid SMBIOS)
 
@@ -246,13 +246,10 @@ This repo is for Dell Latitude E5270 hackinthosh build.
 
 - [ ] Battery
 
-- [ ] Keyboard (with all fn Keys using [ThinkpadAssistant](https://github.com/MSzturc/ThinkpadAssistant), thanks to @MSzturc)
+- [ ] Keyboard
 
-- [ ] Trackpad, Trackpoint and Physical buttons (with native gestures)
+- [ ] Trackpad and Physical buttons (with native gestures)
 
-- [ ] SIP and FileVault 2 can be enabled (disabled by default in config.plist)
+- [ ] SD Card Reader 
 
-- [ ] SD Card Reader `Driver somewhat works with low speed and unstable`
-
-- [ ] Sidecar Wireless `Doesn't work without apple native WIFI card`
   
