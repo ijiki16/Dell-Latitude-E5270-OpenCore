@@ -8,15 +8,21 @@ This repo is for Dell Latitude E5270 hackinthosh build.
 
 - `CPU`: Intel Core i7-6600U Skylake
 
-    ```bash
-        model name      : Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz
-    ```
-
 - `GPU`: Intel HD Graphics 520
 
-    ```bash
-        00:02.0 VGA compatible controller: Intel Corporation Skylake GT2 [HD Graphics 520] (rev 07)
-    ```
+- `RAM`: 8 GB 2133MHz DDR4
+
+- `Camera`: HD 480p
+
+- `Sound`: RealTek ALC3235 Analog [ALC3235 Analog]
+
+- `Screen`: 12.5" FHD (1920x1080) 60 Hz
+
+- `Ethernet`: Intel Corporation Ethernet Connection I219-LM (rev 21)
+
+- `WLAN + BT`: Intel Corporation Wireless 8260 (rev 3a)
+
+- `Battery`: 62Wh Dell RDRH971 Li-ion
 
 - `Chipset`:
   
@@ -127,50 +133,6 @@ This repo is for Dell Latitude E5270 hackinthosh build.
     Subdevice #0: subdevice #0
     ```
 
-- `Network Controller models`:
-  
-    basic:
-
-    ```bash
-    01:00.0 Network controller: Intel Corporation Wireless 8260 (rev 3a)
-    ```
-
-    more:
-
-    ```bash
-      *-network                 
-        description: Wireless interface
-        product: Wireless 8260
-        vendor: Intel Corporation
-        physical id: 0
-        bus info: pci@0000:01:00.0
-        logical name: wlp1s0
-        version: 3a
-        serial: f0:d5:bf:d8:f0:e5
-        width: 64 bits
-        clock: 33MHz
-        capabilities: pm msi pciexpress bus_master cap_list ethernet physical wireless
-        configuration: broadcast=yes driver=iwlwifi driverversion=5.4.0-58-generic firmware=36.77d01142.0 ip=192.168.1.12 latency=0 link=yes multicast=yes wireless=IEEE 802.11
-        resources: irq:133 memory:e1200000-e1201fff
-    *-network
-        description: Ethernet interface
-        product: Ethernet Connection I219-LM
-        vendor: Intel Corporation
-        physical id: 1f.6
-        bus info: pci@0000:00:1f.6
-        logical name: enp0s31f6
-        version: 21
-        serial: 18:db:f2:3f:b1:42
-        capacity: 1Gbit/s
-        width: 32 bits
-        clock: 33MHz
-        capabilities: pm msi bus_master cap_list ethernet physical tp 10bt 10bt-fd 100bt 100bt-fd 1000bt-fd autonegotiation
-        configuration: autonegotiation=on broadcast=yes driver=e1000e driverversion=3.2.6-k firmware=0.13-3 latency=0 link=no multicast=yes port=twisted pair
-        resources: irq:135 memory:e1300000-e131ffff
-    ```
-
-- `RAM`: 8 GB 2133MHz DDR4
-
 - `Storage`: 500GB ATA Kingston SA2000M8 NVME SSD
   
     ```bash
@@ -200,25 +162,17 @@ This repo is for Dell Latitude E5270 hackinthosh build.
         resources: irq:16 memory:e1100000-e1103fff
     ```
 
-- `Camera`: HD 480p
-
-- `Sound`: RealTek ALC3235 Analog [ALC3235 Analog]
-
-- `Screen`: 12.5" FHD (1920x1080) 60 Hz
-
-- `Ethernet`: Intel Corporation Ethernet Connection I219-LM (rev 21)
-
-- `WLAN + BT`: Intel Corporation Wireless 8260 (rev 3a)
-
-- `Battery`: 62Wh Dell RDRH971 Li-ion
-
 ## macOS Version
 
 - [ ] 10.14: macOS Mojave 10.14.6
 
-- [x] 10.15: macOS Catalina 10.15.3
+- [x] 10.15: macOS Catalina 10.15.7
 
 ## What's Working
+
+- [x] CPU Power Management
+
+- [x] Intel HD Graphics (with QE/CI graphics acceleration)
 
 - [x] Intel I219V Ethernet port
 
@@ -236,13 +190,11 @@ This repo is for Dell Latitude E5270 hackinthosh build.
 
 - [x] Shutdown / Reboot
 
+- [x] SD Card Reader
+
 ## What's not Working ⚠️
 
 > If you have any questions or suggestions feel free to contact me
-
-- [ ] CPU Power Management
-
-- [ ] Intel HD Graphics (with QE/CI graphics acceleration)
 
 - [ ] All USB ports (with dock port support)
 
@@ -258,20 +210,5 @@ This repo is for Dell Latitude E5270 hackinthosh build.
 
 - [ ] Trackpad and Physical buttons (with native gestures)
 
-- [ ] SD Card Reader
-
 - [ ] Bluetooth
 
-### MacBookPro13,1 SMBIOS Info
-
-- Type:         MacBookPro13,1
-- Serial:       C17V5JZQGVC1
-- Board Serial: C17731100GUHMHKA8
-- SmUUID:       C3E3F749-F66C-486D-BD74-22C2120FAEF0
-
-### MacBookPro13,2 SMBIOS Info
-
-- Type:         MacBookPro13,2
-- Serial:       C02T5EYZGYFH
-- Board Serial: C02704600J9H9W8JC
-- SmUUID:       F6784199-6BCB-44A3-B5F4-27468A6D2447
