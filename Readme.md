@@ -192,6 +192,8 @@ This repo is for Dell Latitude E5270 hackinthosh build.
 
 - [x] SD Card Reader
 
+- [x] Internal Camera 
+
 ## What's not Working ⚠️
 
 > If you have any questions or suggestions feel free to contact me
@@ -211,4 +213,3 @@ This repo is for Dell Latitude E5270 hackinthosh build.
 - [ ] Trackpad and Physical buttons (with native gestures)
 
 - [ ] Bluetooth
-
