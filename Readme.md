@@ -84,7 +84,7 @@ This repo is for Dell Latitude E5270 hackinthosh build.
 
 - [x] Battery, Charging
 
-- [x] Shutdown / Reboot
+- [x] Shutdown / Reboot / Sleep / Wake (with lid sleep and lid wake)
 
 - [x] SD Card Reader
 
@@ -101,8 +101,6 @@ This repo is for Dell Latitude E5270 hackinthosh build.
 - [ ] HDMI port (with HDMI audio)
 
 - [ ] Internal Camera (with FaceTime)
-
-- [ ] Sleep / Wake (with lid sleep and lid wake)
 
 - [ ] Airdrop, Handoff, Continuity
 
