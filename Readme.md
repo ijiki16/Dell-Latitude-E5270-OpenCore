@@ -74,6 +74,8 @@ This repo is for Dell Latitude E5270 hackinthosh build.
 
 - [x] WIFI (with [itlwm](https://github.com/OpenIntelWireless/itlwm) and [HeliPort](https://github.com/OpenIntelWireless/HeliPort))
 
+- [x] Bluetooth ([IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware))
+
 - [x] Trackpad
 
 - [x] Keyboard
@@ -100,12 +102,8 @@ This repo is for Dell Latitude E5270 hackinthosh build.
 
 - [ ] HDMI port (with HDMI audio)
 
-- [ ] Internal Camera (with FaceTime)
-
 - [ ] Airdrop, Handoff, Continuity
 
 - [ ] iMessage, FaceTime, iTunes Store (need valid SMBIOS)
 
 - [ ] Trackpad with native gestures
-
-- [ ] Bluetooth
