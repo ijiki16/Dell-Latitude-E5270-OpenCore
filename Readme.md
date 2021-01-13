@@ -192,6 +192,8 @@ This repo is for Dell Latitude E5270 hackinthosh build.
 
 - [x] SD Card Reader
 
+- [x] WIFI (with [itlwm](https://github.com/OpenIntelWireless/itlwm) and [HeliPort](https://github.com/OpenIntelWireless/HeliPort))
+
 ## What's not Working ⚠️
 
 > If you have any questions or suggestions feel free to contact me
@@ -204,7 +206,7 @@ This repo is for Dell Latitude E5270 hackinthosh build.
 
 - [ ] Sleep / Wake (with lid sleep and lid wake)
 
-- [ ] Wifi, Airdrop, Handoff, Continuity
+- [ ] Airdrop, Handoff, Continuity
 
 - [ ] iMessage, FaceTime, App Store, iTunes Store (need valid SMBIOS)
 
