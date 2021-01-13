@@ -168,7 +168,7 @@ This repo is for Dell Latitude E5270 hackinthosh build.
 
 - [x] 10.15: macOS Catalina 10.15.7
 
-## What's Working
+## What's Working :heavy_check_mark:
 
 - [x] CPU Power Management
 
@@ -194,7 +194,7 @@ This repo is for Dell Latitude E5270 hackinthosh build.
 
 - [x] WIFI (with [itlwm](https://github.com/OpenIntelWireless/itlwm) and [HeliPort](https://github.com/OpenIntelWireless/HeliPort))
 
-## What's not Working ⚠️
+## What's not Working :heavy_multiplication_x:
 
 > If you have any questions or suggestions feel free to contact me
 
@@ -214,3 +214,7 @@ This repo is for Dell Latitude E5270 hackinthosh build.
 
 - [ ] Bluetooth
 
+
+## Thanks to
+
+- Jake Lo from [osxlatitude.com](https://osxlatitude.com/profile/1549-jake-lo/)
