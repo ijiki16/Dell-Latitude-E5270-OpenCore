@@ -107,3 +107,7 @@ This repo is for Dell Latitude E5270 hackinthosh build.
 - [ ] iMessage, FaceTime, iTunes Store (need valid SMBIOS)
 
 - [ ] Trackpad with native gestures
+
+## Thanks to
+
+- Jake Lo from [osxlatitude.com](https://osxlatitude.com/profile/1549-jake-lo/)
