@@ -11,8 +11,10 @@ This repo is for Dell Latitude E5270 hackinthosh build.
 - `GPU`: Intel HD Graphics 520
 
 - `RAM`: 8 GB 2133MHz DDR4
+  
+- `Storage`: 500GB ATA Kingston SA2000M8 NVME SSD
 
-- `Camera`: HD 480p
+- `Camera`: HD 1080p
 
 - `Sound`: RealTek ALC3235 Analog [ALC3235 Analog]
 
@@ -23,59 +25,6 @@ This repo is for Dell Latitude E5270 hackinthosh build.
 - `WLAN + BT`: Intel Corporation Wireless 8260 (rev 3a)
 
 - `Battery`: 62Wh Dell RDRH971 Li-ion
-
-- `Chipset`:
-  
-    ```bash
-        # dmidecode 3.2
-        Getting SMBIOS data from sysfs.
-        SMBIOS 3.0.0 present.
-
-        Handle 0x0002, DMI type 2, 15 bytes
-        Base Board Information
-                Manufacturer: Dell Inc.
-                Product Name: 0G3XN9
-                Version: A00
-                Serial Number: /DX2RTC2/CN129636BG0092/
-                Asset Tag: Not Specified
-                Features:
-                        Board is a hosting board
-                        Board is replaceable
-                Location In Chassis: Not Specified
-                Chassis Handle: 0x0003
-                Type: Motherboard
-                Contained Object Handles: 0
-
-        Handle 0x0027, DMI type 10, 6 bytes
-        On Board Device Information
-                Type: Video
-                Status: Enabled
-                Description: "Intel HD Graphics"
-
-        Handle 0x003E, DMI type 41, 11 bytes
-        Onboard Device
-                Reference Designation:  Onboard IGD
-                Type: Video
-                Status: Enabled
-                Type Instance: 1
-                Bus Address: 0000:00:02.0
-
-        Handle 0x003F, DMI type 41, 11 bytes
-        Onboard Device
-                Reference Designation:  Onboard LAN
-                Type: Ethernet
-                Status: Enabled
-                Type Instance: 1
-                Bus Address: 0000:00:19.0
-
-        Handle 0x0040, DMI type 41, 11 bytes
-        Onboard Device
-                Reference Designation:  Onboard 1394
-                Type: Other
-                Status: Enabled
-                Type Instance: 1
-                Bus Address: 0000:03:1c.2
-    ```
   
 - `Keyboard, Trackpad and Touchscreen Connection Type`:
   
@@ -107,59 +56,6 @@ This repo is for Dell Latitude E5270 hackinthosh build.
     [    7.314545] rfkill: input handler disabled
     [   14.179016] rfkill: input handler enabled
     [   16.724387] rfkill: input handler disabled
-    ```
-
-- `Audio Codec`:
-  
-    ```bash
-    **** List of PLAYBACK Hardware Devices ****
-    card 0: PCH [HDA Intel PCH], device 0: ALC3235 Analog [ALC3235 Analog]
-    Subdevices: 1/1
-    Subdevice #0: subdevice #0
-    card 0: PCH [HDA Intel PCH], device 3: HDMI 0 [HDMI 0]
-    Subdevices: 1/1
-    Subdevice #0: subdevice #0
-    card 0: PCH [HDA Intel PCH], device 7: HDMI 1 [HDMI 1]
-    Subdevices: 1/1
-    Subdevice #0: subdevice #0
-    card 0: PCH [HDA Intel PCH], device 8: HDMI 2 [HDMI 2]
-    Subdevices: 1/1
-    Subdevice #0: subdevice #0
-    card 0: PCH [HDA Intel PCH], device 9: HDMI 3 [HDMI 3]
-    Subdevices: 1/1
-    Subdevice #0: subdevice #0
-    card 0: PCH [HDA Intel PCH], device 10: HDMI 4 [HDMI 4]
-    Subdevices: 1/1
-    Subdevice #0: subdevice #0
-    ```
-
-- `Storage`: 500GB ATA Kingston SA2000M8 NVME SSD
-  
-    ```bash
-    *-sata                    
-        description: SATA controller
-        product: Sunrise Point-LP SATA Controller [AHCI mode]
-        vendor: Intel Corporation
-        physical id: 17
-        bus info: pci@0000:00:17.0
-        version: 21
-        width: 32 bits
-        clock: 66MHz
-        capabilities: sata msi pm ahci_1.0 bus_master cap_list
-        configuration: driver=ahci latency=0
-        resources: irq:124 memory:e1350000-e1351fff memory:e1354000-e13540ff ioport:f090(size=8) ioport:f080(size=4) ioport:f060(size=32) memory:e1353000-e13537ff
-    *-storage
-        description: Non-Volatile memory controller
-        product: Kingston Technology Company, Inc.
-        vendor: Kingston Technology Company, Inc.
-        physical id: 0
-        bus info: pci@0000:02:00.0
-        version: 03
-        width: 64 bits
-        clock: 33MHz
-        capabilities: storage pm msi pciexpress msix nvm_express bus_master cap_list
-        configuration: driver=nvme latency=0
-        resources: irq:16 memory:e1100000-e1103fff
     ```
 
 ## macOS Version
