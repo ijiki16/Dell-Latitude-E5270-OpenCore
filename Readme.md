@@ -168,7 +168,7 @@ This repo is for Dell Latitude E5270 hackinthosh build.
 
 - [x] 10.15: macOS Catalina 10.15.7
 
-## What's Working :white_check_mark:
+## :white_check_mark: What's Working
 
 - [x] CPU Power Management
 
@@ -184,7 +184,7 @@ This repo is for Dell Latitude E5270 hackinthosh build.
 
 - [x] Mic in and Audio out
 
-- [x] Some USB ports
+- [x] All USB ports
 
 - [x] Battery, Charging
 
@@ -192,13 +192,15 @@ This repo is for Dell Latitude E5270 hackinthosh build.
 
 - [x] SD Card Reader
 
-- [x] Internal Camera 
+- [x] Internal Camera
 
-## What's not Working :x:
+- [x] App Store
+
+## :x: What's not Working
 
 > If you have any questions or suggestions feel free to contact me
 
-- [ ] All USB ports (with dock port support)
+- [ ] Dock port support
 
 - [ ] HDMI port (with HDMI audio)
 
@@ -208,9 +210,8 @@ This repo is for Dell Latitude E5270 hackinthosh build.
 
 - [ ] Airdrop, Handoff, Continuity
 
-- [ ] iMessage, FaceTime, App Store, iTunes Store (need valid SMBIOS)
+- [ ] iMessage, FaceTime, iTunes Store (need valid SMBIOS)
 
-- [ ] Trackpad and Physical buttons (with native gestures)
+- [ ] Trackpad with native gestures
 
 - [ ] Bluetooth
-
