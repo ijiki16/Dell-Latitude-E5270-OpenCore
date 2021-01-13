@@ -168,13 +168,15 @@ This repo is for Dell Latitude E5270 hackinthosh build.
 
 - [x] 10.15: macOS Catalina 10.15.7
 
-## What's Working
+## What's Working :white_check_mark:
 
 - [x] CPU Power Management
 
 - [x] Intel HD Graphics (with QE/CI graphics acceleration)
 
 - [x] Intel I219V Ethernet port
+
+- [x] WIFI (with [itlwm](https://github.com/OpenIntelWireless/itlwm) and [HeliPort](https://github.com/OpenIntelWireless/HeliPort))
 
 - [x] Trackpad
 
@@ -186,15 +188,13 @@ This repo is for Dell Latitude E5270 hackinthosh build.
 
 - [x] Battery, Charging
 
-- [x] Audio
-
 - [x] Shutdown / Reboot
 
 - [x] SD Card Reader
 
 - [x] Internal Camera 
 
-## What's not Working ⚠️
+## What's not Working :x:
 
 > If you have any questions or suggestions feel free to contact me
 
@@ -206,10 +206,11 @@ This repo is for Dell Latitude E5270 hackinthosh build.
 
 - [ ] Sleep / Wake (with lid sleep and lid wake)
 
-- [ ] Wifi, Airdrop, Handoff, Continuity
+- [ ] Airdrop, Handoff, Continuity
 
 - [ ] iMessage, FaceTime, App Store, iTunes Store (need valid SMBIOS)
 
 - [ ] Trackpad and Physical buttons (with native gestures)
 
 - [ ] Bluetooth
+
