@@ -176,6 +176,8 @@ This repo is for Dell Latitude E5270 hackinthosh build.
 
 - [x] Intel I219V Ethernet port
 
+- [x] WIFI (with [itlwm](https://github.com/OpenIntelWireless/itlwm) and [HeliPort](https://github.com/OpenIntelWireless/HeliPort))
+
 - [x] Trackpad
 
 - [x] Keyboard
@@ -186,13 +188,9 @@ This repo is for Dell Latitude E5270 hackinthosh build.
 
 - [x] Battery, Charging
 
-- [x] Audio
-
 - [x] Shutdown / Reboot
 
 - [x] SD Card Reader
-
-- [x] WIFI (with [itlwm](https://github.com/OpenIntelWireless/itlwm) and [HeliPort](https://github.com/OpenIntelWireless/HeliPort))
 
 ## What's not Working :x:
 
