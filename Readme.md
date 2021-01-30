@@ -2,6 +2,10 @@
 
 This repo is for Dell Latitude E5270 hackinthosh build.
 
+SysInfo | neoFetch
+:---:|:----:
+![E5270](Images/SysInfo.png) | ![E5270](Images/NeoFetch.png)
+
 ## Laptop's Configuration
 
 - `Model`: Latitude E5270
