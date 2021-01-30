@@ -1108,8 +1108,7 @@
 	<key>Misc</key>
 	<dict>
 		<key>BlessOverride</key>
-		<array>
-		</array>
+		<array/>
 		<key>Boot</key>
 		<dict>
 			<key>ConsoleAttributes</key>
@@ -1132,8 +1131,6 @@
 			<integer>0</integer>
 			<key>Timeout</key>
 			<integer>5</integer>
-			<key>PickerVariant</key>
-			<string>Default</string>
 		</dict>
 		<key>Debug</key>
 		<dict>
