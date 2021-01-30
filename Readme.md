@@ -1,7 +1,7 @@
 # Dell Latitude E5270 MacOS
 
 [![macOS](https://img.shields.io/badge/macOS-10.15.7-blue)](https://developer.apple.com/documentation/macos-release-notes)
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.6.4-green)](https://github.com/acidanthera/OpenCorePkg)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.6.5-green)](https://github.com/acidanthera/OpenCorePkg)
 [![BIOS](https://img.shields.io/badge/BIOS-1.23.3-lightgrey)](https://www.dell.com/support/home/en-us/drivers/driversdetails?driverid=8cy65&oscode=w764&productcode=latitude-e5270-laptop)
 [![License](https://img.shields.io/badge/license-BSD_3-purple)](/LICENSE)
 
