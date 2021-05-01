@@ -1,15 +1,15 @@
 # Dell Latitude E5270 MacOS
 
 [![macOS](https://img.shields.io/badge/macOS-10.15.7-blue)](https://developer.apple.com/documentation/macos-release-notes)
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.6.5-green)](https://github.com/acidanthera/OpenCorePkg)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.6.6-green)](https://github.com/acidanthera/OpenCorePkg)
 [![BIOS](https://img.shields.io/badge/BIOS-1.23.3-lightgrey)](https://www.dell.com/support/home/en-us/drivers/driversdetails?driverid=8cy65&oscode=w764&productcode=latitude-e5270-laptop)
 [![License](https://img.shields.io/badge/license-BSD_3-purple)](/LICENSE)
 
 This repo is for Dell Latitude E5270 hackinthosh build.
 
-SysInfo | neoFetch
-:---:|:----:
-![E5270](Images/SysInfo.png) | ![E5270](Images/NeoFetch.png)
+|           SysInfo            |           neoFetch            |
+| :--------------------------: | :---------------------------: |
+| ![E5270](Images/SysInfo.png) | ![E5270](Images/NeoFetch.png) |
 
 ## Laptop's Configuration
 
@@ -20,7 +20,6 @@ SysInfo | neoFetch
 - `GPU`: Intel HD Graphics 520
 
 - `RAM`: 8 GB 2133MHz DDR4
-  
 - `Storage`: 500GB ATA Kingston SA2000M8 NVME SSD
 
 - `Camera`: HD 1080p
@@ -34,38 +33,37 @@ SysInfo | neoFetch
 - `WLAN + BT`: Intel Corporation Wireless 8260 (rev 3a)
 
 - `Battery`: 62Wh Dell RDRH971 Li-ion
-  
 - `Keyboard, Trackpad and Touchscreen Connection Type`:
-  
-    ```bash
-    [    0.445591] input: Lid Switch as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0D:00/input/input0
-    [    0.445647] input: Power Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input1
-    [    0.445693] input: Sleep Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0E:00/input/input2
-    [    0.445731] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input3
-    [    0.516267] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input4
-    [    1.901492] hid-generic 0003:03EB:8A83.0001: hiddev0,hidraw0: USB HID v1.11 Device [Atmel] on usb-0000:00:14.0-9/input0
-    [    1.901769] input: Atmel as /devices/pci0000:00/0000:00:14.0/usb1/1-9/1-9:1.1/0003:03EB:8A83.0002/input/input7
-    [    1.901828] hid-generic 0003:03EB:8A83.0002: input,hidraw1: USB HID v1.11 Device [Atmel] on usb-0000:00:14.0-9/input1
-    [    1.915059] input: AlpsPS/2 ALPS GlidePoint as /devices/platform/i8042/serio1/input/input6
-    [    3.384961] input: DELL Wireless hotkeys as /devices/virtual/input/input8
-    [    3.586643] input: Atmel as /devices/pci0000:00/0000:00:14.0/usb1/1-9/1-9:1.1/0003:03EB:8A83.0002/input/input9
-    [    3.586887] hid-multitouch 0003:03EB:8A83.0002: input,hidraw1: USB HID v1.11 Device [Atmel] on usb-0000:00:14.0-9/input1
-    [    3.618827] input: Integrated_Webcam_FHD: Integrat as /devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.0/input/input10
-    [    3.651996] input: Dell WMI hotkeys as /devices/platform/PNP0C14:01/wmi_bus/wmi_bus-PNP0C14:01/9DBB5994-A997-11DA-B012-B622A1EF5492/input/input11
-    [    3.672418] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/input/input12
-    [    4.179444] snd_hda_codec_realtek hdaudioC0D0:    inputs:
-    [    4.252347] input: HDA Intel PCH Dock Mic as /devices/pci0000:00/0000:00:1f.3/sound/card0/input13
-    [    4.252499] input: HDA Intel PCH Headphone Mic as /devices/pci0000:00/0000:00:1f.3/sound/card0/input14
-    [    4.252560] input: HDA Intel PCH Dock Line Out as /devices/pci0000:00/0000:00:1f.3/sound/card0/input15
-    [    4.252628] input: HDA Intel PCH HDMI/DP,pcm=3 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input16
-    [    4.252684] input: HDA Intel PCH HDMI/DP,pcm=7 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input17
-    [    4.252743] input: HDA Intel PCH HDMI/DP,pcm=8 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input18
-    [    4.253030] input: HDA Intel PCH HDMI/DP,pcm=9 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input19
-    [    4.253092] input: HDA Intel PCH HDMI/DP,pcm=10 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input20
-    [    7.314545] rfkill: input handler disabled
-    [   14.179016] rfkill: input handler enabled
-    [   16.724387] rfkill: input handler disabled
-    ```
+
+  ```bash
+  [    0.445591] input: Lid Switch as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0D:00/input/input0
+  [    0.445647] input: Power Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input1
+  [    0.445693] input: Sleep Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0E:00/input/input2
+  [    0.445731] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input3
+  [    0.516267] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input4
+  [    1.901492] hid-generic 0003:03EB:8A83.0001: hiddev0,hidraw0: USB HID v1.11 Device [Atmel] on usb-0000:00:14.0-9/input0
+  [    1.901769] input: Atmel as /devices/pci0000:00/0000:00:14.0/usb1/1-9/1-9:1.1/0003:03EB:8A83.0002/input/input7
+  [    1.901828] hid-generic 0003:03EB:8A83.0002: input,hidraw1: USB HID v1.11 Device [Atmel] on usb-0000:00:14.0-9/input1
+  [    1.915059] input: AlpsPS/2 ALPS GlidePoint as /devices/platform/i8042/serio1/input/input6
+  [    3.384961] input: DELL Wireless hotkeys as /devices/virtual/input/input8
+  [    3.586643] input: Atmel as /devices/pci0000:00/0000:00:14.0/usb1/1-9/1-9:1.1/0003:03EB:8A83.0002/input/input9
+  [    3.586887] hid-multitouch 0003:03EB:8A83.0002: input,hidraw1: USB HID v1.11 Device [Atmel] on usb-0000:00:14.0-9/input1
+  [    3.618827] input: Integrated_Webcam_FHD: Integrat as /devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.0/input/input10
+  [    3.651996] input: Dell WMI hotkeys as /devices/platform/PNP0C14:01/wmi_bus/wmi_bus-PNP0C14:01/9DBB5994-A997-11DA-B012-B622A1EF5492/input/input11
+  [    3.672418] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/input/input12
+  [    4.179444] snd_hda_codec_realtek hdaudioC0D0:    inputs:
+  [    4.252347] input: HDA Intel PCH Dock Mic as /devices/pci0000:00/0000:00:1f.3/sound/card0/input13
+  [    4.252499] input: HDA Intel PCH Headphone Mic as /devices/pci0000:00/0000:00:1f.3/sound/card0/input14
+  [    4.252560] input: HDA Intel PCH Dock Line Out as /devices/pci0000:00/0000:00:1f.3/sound/card0/input15
+  [    4.252628] input: HDA Intel PCH HDMI/DP,pcm=3 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input16
+  [    4.252684] input: HDA Intel PCH HDMI/DP,pcm=7 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input17
+  [    4.252743] input: HDA Intel PCH HDMI/DP,pcm=8 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input18
+  [    4.253030] input: HDA Intel PCH HDMI/DP,pcm=9 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input19
+  [    4.253092] input: HDA Intel PCH HDMI/DP,pcm=10 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input20
+  [    7.314545] rfkill: input handler disabled
+  [   14.179016] rfkill: input handler enabled
+  [   16.724387] rfkill: input handler disabled
+  ```
 
 ## macOS Version
 
