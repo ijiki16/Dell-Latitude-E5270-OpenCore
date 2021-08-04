@@ -20,7 +20,8 @@ This repo is for Dell Latitude E5270 hackinthosh build.
 - `GPU`: Intel HD Graphics 520
 
 - `RAM`: 8 GB 2133MHz DDR4
-- `Storage`: 500GB ATA Kingston SA2000M8 NVME SSD
+
+- `Storage`: 500GB ATA Kingston SA2000M8 NVMe SSD
 
 - `Camera`: HD 1080p
 
@@ -33,6 +34,7 @@ This repo is for Dell Latitude E5270 hackinthosh build.
 - `WLAN + BT`: Intel Corporation Wireless 8260 (rev 3a)
 
 - `Battery`: 62Wh Dell RDRH971 Li-ion
+
 - `Keyboard, Trackpad and Touchscreen Connection Type`:
 
   ```bash
@@ -79,11 +81,11 @@ This repo is for Dell Latitude E5270 hackinthosh build.
 
 - [x] Intel I219V Ethernet port
 
-- [x] WIFI (with [itlwm](https://github.com/OpenIntelWireless/itlwm) and [HeliPort](https://github.com/OpenIntelWireless/HeliPort))
+- [x] WiFi (with [itlwm](https://github.com/OpenIntelWireless/itlwm) and [HeliPort](https://github.com/OpenIntelWireless/HeliPort))
 
 - [x] Bluetooth ([IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware))
 
-- [x] Trackpad
+- [x] TrackPad
 
 - [x] Keyboard
 
